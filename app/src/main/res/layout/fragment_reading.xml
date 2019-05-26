@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFEB3B"
+              android:orientation="vertical"
+              tools:context=".ui.fragment.reading.ReadingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_marginTop="100dp"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Truyện Công giáo"/>
+    <EditText
+            android:id="@+id/edt_id_story"
+            android:layout_margin="20dp"
+            android:textSize="18sp"
+            android:background="#ccc"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập id"/>
+    <EditText
+            android:id="@+id/edt_name_story"
+            android:layout_margin="20dp"
+            android:textSize="18sp"
+            android:background="#ccc"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên truyện"/>
+    <EditText
+            android:id="@+id/edt_content"
+            android:gravity="top|left"
+            android:layout_margin="20dp"
+            android:textSize="18sp"
+            android:background="#ccc"
+            android:lines="10"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên truyện"/>
+
+
+    <Button
+            android:id="@+id/btnTestApi"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:background="#2196F3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tải Truyện Lên"/>
+
+</LinearLayout>

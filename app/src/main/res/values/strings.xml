@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">TRUYENCONGGIAO</string>
-    <string name="tab_home">D</string>
-    <string name="tab_video">Demo3</string>
-    <string name="tab_micro">Demo2</string>
-    <string name="tab_me">Demo</string>
+    <string name="app_name">Truyện Công Giáo</string>
+    <string name="tab_home">Đang đọc</string>
+    <string name="tab_video">Thư viện</string>
+    <string name="tab_micro">Yêu thích</string>
+    <string name="tab_me">Tìm kiếm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
